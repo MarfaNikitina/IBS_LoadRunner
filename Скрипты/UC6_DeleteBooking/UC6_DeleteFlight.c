@@ -127,6 +127,15 @@ UC6_DeleteFlight()
 					LAST);
 			
 			}
+
+			if(atoi(lr_eval_string("{flights_numbers}")) >= flight_id_num)
+				{
+			    	lr_error_message("Itinerary not deleted");
+				} 
+			else if (atoi(lr_eval_string("{flights_numbers}")) < flight_id_num) 
+				{
+			        lr_output_message("Itinerary deleted succuess");
+			    }
 	
 
 	lr_end_transaction("Delete Flight",LR_AUTO);
