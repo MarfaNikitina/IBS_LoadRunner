@@ -1,0 +1,13 @@
+username,password,first_name,last_name,city,cardNumber,expDate,address
+Marfa,1570127,Marfa,Nikitina,Moscow,123456789,03/20,street ASDF
+Nikita123,1570127,Nikita,Nikitin,Moscow,09876543,09/32, street Sxdcfvgbhj
+Olga,123409,Olga,Nikitina,Klin,123456784,08/32,street Asdf
+Marta,qwerty,Marta,Che,London,987243647,06/34,street Lkjhg
+Tim,QWERTY,Timoty,Dalton,Mexico,17283495,01/35,street QWert
+Zoe,!@#$%^&*(,Zoe,Li,Tokio,123456728,07/32,street Khgdfs
+Max,QWERTY123,Maxim,Nilson,Chicago,746352834,08/30,street Dfghjkl
+Alex,ZXCVBN,Alexey,Kuprin,Oslo,12345672,04/24,street Vlkjhgf
+Miranda,MNBVC,Mira,Bonfesto,Rome,938475652,05/25,street Bsdfgh
+Bot987,fghjk,Botego,Gansales,Colorado,94856245,08/25,street Lkjhgfzxc
+Joe,asdfg12345,Joseph,Fines,Stambul,973524456,07/27,street Fsdfghj
+

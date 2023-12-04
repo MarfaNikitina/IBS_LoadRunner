@@ -1,0 +1,93 @@
+Virtual User Script started at: 03.12.2023 16:17:10
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\User\Documents\WebTours_Scripts\FindFlightWithoutBooking\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action UC2_FindFlight.
+UC2_FindFlight.c(3): Notify: Transaction "FindFlightWithoutBooking" started.
+UC2_FindFlight.c(5): Notify: Transaction "StartPage" started.
+UC2_FindFlight.c(7): web_reg_save_param started  	[MsgId: MMSG-26355]
+UC2_FindFlight.c(7): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+UC2_FindFlight.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+UC2_FindFlight.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC2_FindFlight.c(14): web_set_sockets_option started  	[MsgId: MMSG-26355]
+UC2_FindFlight.c(14): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+UC2_FindFlight.c(18): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+UC2_FindFlight.c(18): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC2_FindFlight.c(18): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC2_FindFlight.c(18): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+UC2_FindFlight.c(18): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC2_FindFlight.c(18): web_url("welcome.pl") was successful, 4214 body bytes, 1226 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC2_FindFlight.c(28): Notify: Transaction "StartPage" ended with a "Pass" status (Duration: 0,2484 Wasted Time: 0,0781).
+UC2_FindFlight.c(32): Notify: Transaction "Login" started.
+UC2_FindFlight.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+UC2_FindFlight.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC2_FindFlight.c(36): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+UC2_FindFlight.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC2_FindFlight.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC2_FindFlight.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC2_FindFlight.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC2_FindFlight.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC2_FindFlight.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC2_FindFlight.c(36): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+UC2_FindFlight.c(36): web_submit_data("login.pl") was successful, 5780 body bytes, 2044 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC2_FindFlight.c(53): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,1582 Wasted Time: 0,0052).
+UC2_FindFlight.c(57): Notify: Transaction "Flights" started.
+UC2_FindFlight.c(59): web_reg_find started  	[MsgId: MMSG-26355]
+UC2_FindFlight.c(59): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC2_FindFlight.c(62): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+UC2_FindFlight.c(62): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+UC2_FindFlight.c(72): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+UC2_FindFlight.c(72): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+UC2_FindFlight.c(72): Detected non-resource "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+UC2_FindFlight.c(72): Found resource "http://127.0.0.1:1080/WebTours/images/in_flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+UC2_FindFlight.c(72): Resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC2_FindFlight.c(72): Found resource "http://127.0.0.1:1080/WebTours/images/home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+UC2_FindFlight.c(72): Resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC2_FindFlight.c(72): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+UC2_FindFlight.c(72): Registered web_reg_find successful for "Text= User has returned to the search page" (count=1)  	[MsgId: MMSG-26364]
+UC2_FindFlight.c(72): web_url("Search Flights Button") was successful, 8516 body bytes, 1616 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC2_FindFlight.c(82): Notify: Transaction "Flights" ended with a "Pass" status (Duration: 0,1717 Wasted Time: 0,0068).
+UC2_FindFlight.c(86): Notify: Transaction "FindFlight" started.
+UC2_FindFlight.c(88): Notify: Transaction "FindFlight" ended with a "Pass" status (Duration: 0,0152).
+UC2_FindFlight.c(92): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+UC2_FindFlight.c(92): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+UC2_FindFlight.c(102): Notify: Transaction "Find Flight" started.
+UC2_FindFlight.c(104): web_reg_find started  	[MsgId: MMSG-26355]
+UC2_FindFlight.c(104): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC2_FindFlight.c(106): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+UC2_FindFlight.c(106): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC2_FindFlight.c(106): Registered web_reg_find successful for "Text=From Denver (0) To Frankfurt (1)" (count=1)  	[MsgId: MMSG-26364]
+UC2_FindFlight.c(106): web_submit_data("reservations.pl") was successful, 2443 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC2_FindFlight.c(130): Notify: Transaction "Find Flight" ended with a "Pass" status (Duration: 0,0932 Wasted Time: 0,0032).
+UC2_FindFlight.c(134): Notify: Transaction "ChooseFlight" started.
+UC2_FindFlight.c(136): web_reg_find started  	[MsgId: MMSG-26355]
+UC2_FindFlight.c(136): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC2_FindFlight.c(138): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
+UC2_FindFlight.c(138): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC2_FindFlight.c(138): Registered web_reg_find successful for "Text=Flight Reservation" (count=1)  	[MsgId: MMSG-26364]
+UC2_FindFlight.c(138): web_submit_data("reservations.pl_2") was successful, 2723 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC2_FindFlight.c(156): Notify: Transaction "ChooseFlight" ended with a "Pass" status (Duration: 0,0922 Wasted Time: 0,0039).
+UC2_FindFlight.c(160): Notify: Transaction "Logout" started.
+UC2_FindFlight.c(162): web_reg_find started  	[MsgId: MMSG-26355]
+UC2_FindFlight.c(162): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC2_FindFlight.c(164): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+UC2_FindFlight.c(164): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC2_FindFlight.c(164): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC2_FindFlight.c(164): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+UC2_FindFlight.c(164): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC2_FindFlight.c(164): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC2_FindFlight.c(164): web_url("SignOff Button") was successful, 2176 body bytes, 628 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC2_FindFlight.c(174): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,1398 Wasted Time: 0,0033).
+UC2_FindFlight.c(176): Notify: Transaction "FindFlightWithoutBooking" ended with a "Pass" status (Duration: 1,1401 Wasted Time: 0,1021).
+Ending action UC2_FindFlight.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

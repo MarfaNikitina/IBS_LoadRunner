@@ -1,0 +1,57 @@
+Virtual User Script started at: 02.12.2023 22:23:15
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\User\Documents\WebTours_Scripts\LoginLogout\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action UC1_BookingFlight.
+UC1_BookingFlight.c(3): Notify: Transaction "BookingFlightAndSeeBookingPage" started.
+UC1_BookingFlight.c(5): Notify: Transaction "StartPage" started.
+UC1_BookingFlight.c(7): web_reg_save_param started  	[MsgId: MMSG-26355]
+UC1_BookingFlight.c(7): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+UC1_BookingFlight.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+UC1_BookingFlight.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC1_BookingFlight.c(14): web_set_sockets_option started  	[MsgId: MMSG-26355]
+UC1_BookingFlight.c(14): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+UC1_BookingFlight.c(18): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+UC1_BookingFlight.c(18): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC1_BookingFlight.c(18): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC1_BookingFlight.c(18): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+UC1_BookingFlight.c(18): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC1_BookingFlight.c(18): web_url("welcome.pl") was successful, 4212 body bytes, 1226 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC1_BookingFlight.c(28): Notify: Transaction "StartPage" ended with a "Pass" status (Duration: 0,2209 Wasted Time: 0,0635).
+UC1_BookingFlight.c(32): Notify: Transaction "Login" started.
+UC1_BookingFlight.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+UC1_BookingFlight.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC1_BookingFlight.c(36): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+UC1_BookingFlight.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC1_BookingFlight.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC1_BookingFlight.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC1_BookingFlight.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC1_BookingFlight.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC1_BookingFlight.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC1_BookingFlight.c(36): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+UC1_BookingFlight.c(36): web_submit_data("login.pl") was successful, 5780 body bytes, 2043 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC1_BookingFlight.c(53): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,2178 Wasted Time: 0,0071).
+UC1_BookingFlight.c(57): Notify: Transaction "Logout" started.
+UC1_BookingFlight.c(59): web_reg_find started  	[MsgId: MMSG-26355]
+UC1_BookingFlight.c(59): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC1_BookingFlight.c(61): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+UC1_BookingFlight.c(61): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC1_BookingFlight.c(61): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC1_BookingFlight.c(61): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+UC1_BookingFlight.c(61): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC1_BookingFlight.c(61): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC1_BookingFlight.c(61): web_url("SignOff Button") was successful, 2174 body bytes, 628 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC1_BookingFlight.c(71): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,1522 Wasted Time: 0,0037).
+UC1_BookingFlight.c(73): Notify: Transaction "BookingFlightAndSeeBookingPage" ended with a "Pass" status (Duration: 0,6908 Wasted Time: 0,0743).
+Ending action UC1_BookingFlight.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

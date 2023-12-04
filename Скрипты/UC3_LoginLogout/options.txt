@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\User\Documents\WebTours_Scripts\LoginLogout
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\user\documents\webtours_scripts\loginlogout\\logfile.log
+c:\users\user\documents\webtours_scripts\loginlogout\\combined_LoginLogout.c
+c:\users\user\documents\webtours_scripts\loginlogout\\pre_cci.c

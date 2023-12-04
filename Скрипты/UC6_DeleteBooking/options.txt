@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\User\Documents\WebTours_Scripts\UC6_DeleteBooking
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\user\documents\webtours_scripts\uc6_deletebooking\\logfile.log
+c:\users\user\documents\webtours_scripts\uc6_deletebooking\\combined_DeleteBooking.c
+c:\users\user\documents\webtours_scripts\uc6_deletebooking\\pre_cci.c

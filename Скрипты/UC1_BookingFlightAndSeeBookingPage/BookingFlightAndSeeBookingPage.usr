@@ -1,0 +1,69 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=BookingFlightAndSeeBookingPage.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=55
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.55.0.911
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=12.55.0.911
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=ru-RU
+[Actions]
+vuser_init=vuser_init.c
+UC1_BookingFlight=UC1_BookingFlight.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+UC1_BookingFlight=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+UC1_BookingFlight=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+UC1_BookingFlight=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+UC1_BookingFlight=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="BookingFlightAndSeeBookingPage__*delimiter*__StartPage__*delimiter*__Login__*delimiter*__Flights__*delimiter*__FindFlight__*delimiter*__Find Flight__*delimiter*__ChooseFlight__*delimiter*__ChooseFlight__*delimiter*__AllBookings__*delimiter*__Logout"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+BookingFlightAndSeeBookingPage=
+StartPage=
+Login=
+Flights=
+FindFlight=
+"Find Flight"=
+ChooseFlight=
+AllBookings=
+Logout=

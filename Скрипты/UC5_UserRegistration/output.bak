@@ -1,0 +1,66 @@
+Virtual User Script started at: 03.12.2023 18:31:30
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\User\Documents\WebTours_Scripts\UC5_UserRegistration\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action UC5_UserRegistration.
+UC5_UserRegistration.c(27): Notify: Transaction "UserRegistration" started.
+UC5_UserRegistration.c(29): Notify: Transaction "StartPage" started.
+UC5_UserRegistration.c(31): web_reg_save_param started  	[MsgId: MMSG-26355]
+UC5_UserRegistration.c(31): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+UC5_UserRegistration.c(36): web_reg_find started  	[MsgId: MMSG-26355]
+UC5_UserRegistration.c(36): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC5_UserRegistration.c(38): web_set_sockets_option started  	[MsgId: MMSG-26355]
+UC5_UserRegistration.c(38): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+UC5_UserRegistration.c(40): web_add_cookie started  	[MsgId: MMSG-26355]
+UC5_UserRegistration.c(40): web_add_cookie was successful  	[MsgId: MMSG-26392]
+UC5_UserRegistration.c(42): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+UC5_UserRegistration.c(42): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC5_UserRegistration.c(42): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC5_UserRegistration.c(42): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+UC5_UserRegistration.c(42): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC5_UserRegistration.c(42): web_url("welcome.pl") was successful, 4216 body bytes, 1226 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC5_UserRegistration.c(52): Notify: Transaction "StartPage" ended with a "Pass" status (Duration: 0,2776 Wasted Time: 0,0838).
+UC5_UserRegistration.c(56): Notify: Transaction "AddUser" started.
+UC5_UserRegistration.c(58): web_reg_find started  	[MsgId: MMSG-26355]
+UC5_UserRegistration.c(58): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC5_UserRegistration.c(60): web_url("login.pl") started  	[MsgId: MMSG-26355]
+UC5_UserRegistration.c(60): Found resource "http://127.0.0.1:1080/WebTours/profileValidate.js" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+UC5_UserRegistration.c(60): Found resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" in HTML "http://127.0.0.1:1080/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+UC5_UserRegistration.c(60): Registered web_reg_find successful for "Text=User Information" (count=1)  	[MsgId: MMSG-26364]
+UC5_UserRegistration.c(60): web_url("login.pl") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC5_UserRegistration.c(69): Notify: Transaction "AddUser" ended with a "Pass" status (Duration: 0,1077 Wasted Time: 0,0038).
+UC5_UserRegistration.c(73): Notify: Transaction "UserData" started.
+UC5_UserRegistration.c(75): web_reg_find started  	[MsgId: MMSG-26355]
+UC5_UserRegistration.c(75): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC5_UserRegistration.c(77): web_submit_data("login.pl_2") started  	[MsgId: MMSG-26355]
+UC5_UserRegistration.c(77): Resource "http://127.0.0.1:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC5_UserRegistration.c(77): Registered web_reg_find successful for "Text=Thank you, <b>bqqzjtbfj</b>, for registering" (count=1)  	[MsgId: MMSG-26364]
+UC5_UserRegistration.c(77): web_submit_data("login.pl_2") was successful, 1082 body bytes, 384 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC5_UserRegistration.c(97): Notify: Transaction "UserData" ended with a "Pass" status (Duration: 0,0927 Wasted Time: 0,0049).
+UC5_UserRegistration.c(101): Notify: Transaction "Login" started.
+UC5_UserRegistration.c(103): web_reg_find started  	[MsgId: MMSG-26355]
+UC5_UserRegistration.c(103): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC5_UserRegistration.c(105): web_submit_data("login.pl_3") started  	[MsgId: MMSG-26355]
+UC5_UserRegistration.c(105): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?username=&password=g" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC5_UserRegistration.c(105): Detected non-resource "http://127.0.0.1:1080/cgi-bin/error.pl?error=badPassword" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC5_UserRegistration.c(105): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC5_UserRegistration.c(105): Error -26366: "Text=User password was correct" not found for web_reg_find  	[MsgId: MERR-26366]
+UC5_UserRegistration.c(105): web_submit_data("login.pl_3") highest severity level was "ERROR", 2966 body bytes, 698 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26387]
+UC5_UserRegistration.c(105): Notify: Transaction "Login" ended with a "Fail" status (Duration: 0,1384 Wasted Time: 0,0046).
+UC5_UserRegistration.c(105): Notify: Transaction "Login" has 1 error message(s).
+UC5_UserRegistration.c(105): Notify: The 1st error message associated with transaction "Login" is "Error -26366: "Text=User password was correct" not found for web_reg_find"
+UC5_UserRegistration.c(105): Notify: Transaction "UserRegistration" ended with a "Fail" status (Duration: 0,7231 Wasted Time: 0,0972).
+UC5_UserRegistration.c(105): Notify: Transaction "UserRegistration" has 1 error message(s).
+UC5_UserRegistration.c(105): Notify: The 1st error message associated with transaction "UserRegistration" is "Error -26366: "Text=User password was correct" not found for web_reg_find"
+Ending action UC5_UserRegistration.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,84 @@
+Virtual User Script started at: 04.12.2023 17:02:52
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\User\Documents\WebTours_Scripts\UC6_DeleteBooking\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action UC6_DeleteFlight.
+UC6_DeleteFlight.c(5): Notify: Transaction "DeleteBookingScenario" started.
+UC6_DeleteFlight.c(7): Notify: Transaction "StartPage" started.
+UC6_DeleteFlight.c(9): web_reg_find started  	[MsgId: MMSG-26355]
+UC6_DeleteFlight.c(9): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC6_DeleteFlight.c(11): web_reg_save_param started  	[MsgId: MMSG-26355]
+UC6_DeleteFlight.c(11): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+UC6_DeleteFlight.c(16): web_set_sockets_option started  	[MsgId: MMSG-26355]
+UC6_DeleteFlight.c(16): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+UC6_DeleteFlight.c(18): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+UC6_DeleteFlight.c(18): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC6_DeleteFlight.c(18): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+UC6_DeleteFlight.c(18): Found resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+UC6_DeleteFlight.c(18): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC6_DeleteFlight.c(18): web_url("welcome.pl") was successful, 4213 body bytes, 1226 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC6_DeleteFlight.c(28): Notify: Transaction "StartPage" ended with a "Pass" status (Duration: 0,2195 Wasted Time: 0,0664).
+UC6_DeleteFlight.c(32): Notify: Transaction "Login" started.
+UC6_DeleteFlight.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+UC6_DeleteFlight.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC6_DeleteFlight.c(36): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+UC6_DeleteFlight.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC6_DeleteFlight.c(36): Detected non-resource "http://127.0.0.1:1080/cgi-bin/login.pl?intro=true" in "http://127.0.0.1:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+UC6_DeleteFlight.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/flights.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC6_DeleteFlight.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC6_DeleteFlight.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC6_DeleteFlight.c(36): Found resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+UC6_DeleteFlight.c(36): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+UC6_DeleteFlight.c(36): web_submit_data("login.pl") was successful, 5780 body bytes, 2043 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC6_DeleteFlight.c(53): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,1844 Wasted Time: 0,0050).
+UC6_DeleteFlight.c(57): Notify: Transaction "AllBookings" started.
+UC6_DeleteFlight.c(59): web_reg_find started  	[MsgId: MMSG-26355]
+UC6_DeleteFlight.c(59): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC6_DeleteFlight.c(61): web_reg_save_param started  	[MsgId: MMSG-26355]
+UC6_DeleteFlight.c(61): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+UC6_DeleteFlight.c(67): web_url("Itinerary Button") started  	[MsgId: MMSG-26355]
+UC6_DeleteFlight.c(67): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+UC6_DeleteFlight.c(67): Detected non-resource "http://127.0.0.1:1080/cgi-bin/itinerary.pl" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+UC6_DeleteFlight.c(67): Resource "http://127.0.0.1:1080/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC6_DeleteFlight.c(67): Found resource "http://127.0.0.1:1080/WebTours/images/in_itinerary.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+UC6_DeleteFlight.c(67): Found resource "http://127.0.0.1:1080/WebTours/images/home.gif" in HTML "http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+UC6_DeleteFlight.c(67): Resource "http://127.0.0.1:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC6_DeleteFlight.c(67): Found resource "http://127.0.0.1:1080/WebTours/images/cancelreservation.gif" in HTML "http://127.0.0.1:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+UC6_DeleteFlight.c(67): Found resource "http://127.0.0.1:1080/WebTours/images/cancelallreservations.gif" in HTML "http://127.0.0.1:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+UC6_DeleteFlight.c(67): Registered web_reg_find successful for "Text=User wants the intineraries" (count=1)  	[MsgId: MMSG-26364]
+UC6_DeleteFlight.c(67): web_url("Itinerary Button") was successful, 53434 body bytes, 1913 header bytes, 123 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC6_DeleteFlight.c(79): Notify: Transaction "AllBookings" ended with a "Pass" status (Duration: 0,2075 Wasted Time: 0,0077).
+UC6_DeleteFlight.c(83): Notify: Transaction "Delete Flight" started.
+UC6_DeleteFlight.c(85): web_reg_save_param started  	[MsgId: MMSG-26355]
+UC6_DeleteFlight.c(85): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+UC6_DeleteFlight.c(104): web_submit_form("web_submit_form") started  	[MsgId: MMSG-26355]
+UC6_DeleteFlight.c(104): Submitting form to "http://127.0.0.1:1080/cgi-bin/itinerary.pl", Target Frame=""  	[MsgId: MMSG-27978]
+UC6_DeleteFlight.c(104): Downloading resource "http://localhost:1080/cgi-bin/itinerary.pl" (specified by argument number 16)  	[MsgId: MMSG-26577]
+UC6_DeleteFlight.c(104): Resource "http://127.0.0.1:1080/WebTours/images/cancelreservation.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC6_DeleteFlight.c(104): Resource "http://127.0.0.1:1080/WebTours/images/cancelallreservations.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC6_DeleteFlight.c(104): web_submit_form("web_submit_form") was successful, 45095 body bytes, 510 header bytes, 103 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC6_DeleteFlight.c(132): Notify: Transaction "Delete Flight" ended with a "Pass" status (Duration: 0,1786 Wasted Time: 0,0048).
+UC6_DeleteFlight.c(136): Notify: Transaction "Logout" started.
+UC6_DeleteFlight.c(137): web_reg_find started  	[MsgId: MMSG-26355]
+UC6_DeleteFlight.c(137): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+UC6_DeleteFlight.c(139): web_url("welcome.pl_2") started  	[MsgId: MMSG-26355]
+UC6_DeleteFlight.c(139): Detected non-resource "http://127.0.0.1:1080/cgi-bin/nav.pl?in=home" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC6_DeleteFlight.c(139): Detected non-resource "http://127.0.0.1:1080/WebTours/home.html" in "http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+UC6_DeleteFlight.c(139): Retrieving data from cache for "http://127.0.0.1:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+UC6_DeleteFlight.c(139): Resource "http://127.0.0.1:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+UC6_DeleteFlight.c(139): Registered web_reg_find successful for "Text=Web Tours" (count=5)  	[MsgId: MMSG-26364]
+UC6_DeleteFlight.c(139): web_url("welcome.pl_2") was successful, 2176 body bytes, 628 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+UC6_DeleteFlight.c(149): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,1511 Wasted Time: 0,0044).
+UC6_DeleteFlight.c(150): Notify: Transaction "DeleteBookingScenario" ended with a "Pass" status (Duration: 1,0591 Wasted Time: 0,0883).
+Ending action UC6_DeleteFlight.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

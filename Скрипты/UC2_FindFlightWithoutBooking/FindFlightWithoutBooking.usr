@@ -1,0 +1,68 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=FindFlightWithoutBooking.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=55
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.55.0.911
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=12.55.0.911
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=ru-RU
+[Actions]
+vuser_init=vuser_init.c
+UC2_FindFlight=UC2_FindFlight.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+UC2_FindFlight=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+UC2_FindFlight=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+UC2_FindFlight=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+UC2_FindFlight=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="FindFlightWithoutBooking__*delimiter*__StartPage__*delimiter*__Login__*delimiter*__Flights__*delimiter*__FindFlight__*delimiter*__Find Flight__*delimiter*__ChooseFlight__*delimiter*__Logout"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+FindFlightWithoutBooking=
+StartPage=
+Login=
+Flights=
+FindFlight=
+"Find Flight"=
+ChooseFlight=
+Logout=

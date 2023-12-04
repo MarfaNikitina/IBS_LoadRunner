@@ -1,0 +1,66 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=DeleteBooking.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=55
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.55.0.911
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=12.55.0.911
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=ru-RU
+[Actions]
+vuser_init=vuser_init.c
+UC6_DeleteFlight=UC6_DeleteFlight.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+UC6_DeleteFlight=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+UC6_DeleteFlight=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+UC6_DeleteFlight=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+UC6_DeleteFlight=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="DeleteBookingScenario__*delimiter*__StartPage__*delimiter*__Login__*delimiter*__AllBookings__*delimiter*__Delete Flight__*delimiter*__Logout"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+DeleteBookingScenario=
+StartPage=
+Login=
+AllBookings=
+"Delete Flight"=
+Logout=

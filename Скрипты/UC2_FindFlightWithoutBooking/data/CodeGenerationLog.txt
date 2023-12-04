@@ -1,0 +1,3059 @@
+****** Start Log Message ******
+Web Recorder version : 12.55.911.0 
+Recording Mode: HTML-based script containing explicit URLs only
+Recording headers not in list:
+	accept
+	accept-charset
+	accept-encoding
+	accept-language
+	accept-ranges
+	age
+	allow
+	cache-control
+	content-base
+	content-disposition
+	content-encoding
+	content-language
+	content-location
+	content-md5
+	content-range
+	content-type
+	date
+	etag
+	expires
+	from
+	if-modified-since
+	if-match
+	if-none-match
+	if-range
+	if-unmodified-since
+	location
+	last-modified
+	max-forwards
+	pragma
+	public
+	range
+	retry-after
+	server
+	transfer-encoding
+	upgrade
+	user-agent
+	vary
+	via
+	warning
+	method
+	path
+	scheme
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+	application/json
+Reset context between actions
+Do not record non-HTML elements
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 12.55.911.0
+
+****** Analyze segments filter initialization ******
+****** Request Header For Transaction With Id 60 ******
+GET /WebTours/ HTTP/1.1
+Host: 127.0.0.1:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz
+Connection: keep-alive
+If-Modified-Since: Mon, 27 May 2013 11:20:22 GMT
+If-None-Match: "300000008ba8e-16e-4ddb1559ac980"
+
+
+$$$$$$ Request Header For Transaction With Id 60 Ended $$$$$$
+
+****** Response Header For Transaction With Id 60 ******
+HTTP/1.1 304 Not Modified
+Date: Sat, 02 Dec 2023 15:23:11 GMT
+Server: Apache/2.2.21 (Win32)
+Connection: Keep-Alive
+Keep-Alive: timeout=5, max=100
+ETag: "300000008ba8e-16e-4ddb1559ac980"
+
+
+$$$$$$ Response Header For Transaction With Id 60 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 63 ******
+GET /WebTours/header.html HTTP/1.1
+Host: 127.0.0.1:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:1080/WebTours/
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz
+Connection: keep-alive
+If-Modified-Since: Mon, 27 May 2013 11:20:22 GMT
+If-None-Match: "300000008ba74-2c6-4ddb1559ac980"
+
+
+$$$$$$ Request Header For Transaction With Id 63 Ended $$$$$$
+
+****** Response Header For Transaction With Id 63 ******
+HTTP/1.1 304 Not Modified
+Date: Sat, 02 Dec 2023 15:23:11 GMT
+Server: Apache/2.2.21 (Win32)
+Connection: Keep-Alive
+Keep-Alive: timeout=5, max=100
+ETag: "300000008ba74-2c6-4ddb1559ac980"
+
+
+$$$$$$ Response Header For Transaction With Id 63 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 69 ******
+GET /cgi-bin/welcome.pl?signOff=true HTTP/1.1
+Host: 127.0.0.1:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:1080/WebTours/
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz
+Connection: keep-alive
+
+
+$$$$$$ Request Header For Transaction With Id 69 Ended $$$$$$
+
+****** Response Header For Transaction With Id 69 ******
+HTTP/1.1 200 OK
+Date: Sat, 02 Dec 2023 15:23:11 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1701530591&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Fri, 01-Dec-2023 15:23:11 GMT
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 69 Ended $$$$$$
+
+****** Response Body For Transaction With Id 69 ******
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 69 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Start Log Message ******
+Set SSL version to '2&3'
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 69 ****** (Location Flag : tFlagInsertEnd, Location ID : 69)
+	web_url("welcome.pl",
+		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true",
+		"TargetFrame=",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://127.0.0.1:1080/WebTours/",
+		"Snapshot=t1.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 69 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 69)
+	web_add_cookie("csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; DOMAIN=127.0.0.1");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 76 ******
+GET /WebTours/home.html HTTP/1.1
+Host: 127.0.0.1:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701530591&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+Connection: keep-alive
+If-Modified-Since: Mon, 27 May 2013 11:20:22 GMT
+If-None-Match: "300000008ba75-551-4ddb1559ac980"
+
+
+$$$$$$ Request Header For Transaction With Id 76 Ended $$$$$$
+
+****** Response Header For Transaction With Id 76 ******
+HTTP/1.1 304 Not Modified
+Date: Sat, 02 Dec 2023 15:23:11 GMT
+Server: Apache/2.2.21 (Win32)
+Connection: Keep-Alive
+Keep-Alive: timeout=5, max=99
+ETag: "300000008ba75-551-4ddb1559ac980"
+
+
+$$$$$$ Response Header For Transaction With Id 76 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/cgi-bin/welcome.pl?signOff=true
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 78 ******
+GET /cgi-bin/nav.pl?in=home HTTP/1.1
+Host: 127.0.0.1:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701530591&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+Connection: keep-alive
+
+
+$$$$$$ Request Header For Transaction With Id 78 Ended $$$$$$
+
+****** Response Header For Transaction With Id 78 ******
+HTTP/1.1 200 OK
+Date: Sat, 02 Dec 2023 15:23:11 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Fri, 01 Dec 2023 15:23:11 GMT
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 78 Ended $$$$$$
+
+****** Response Body For Transaction With Id 78 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="137831.558606723HAiQHVApHQfiDDDDtcfDipcztHHf"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 78 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/cgi-bin/welcome.pl?signOff=true
+	The Node is NULL
+	/WebTours/home.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 85 ******
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701530591&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+Connection: keep-alive
+
+
+$$$$$$ Request Header For Transaction With Id 85 Ended $$$$$$
+
+****** Response Header For Transaction With Id 85 ******
+HTTP/1.1 404 Not Found
+Date: Sat, 02 Dec 2023 15:23:11 GMT
+Server: Apache/2.2.21 (Win32)
+Content-Length: 209
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 85 Ended $$$$$$
+
+****** Response Body For Transaction With Id 85 ******
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /favicon.ico was not found on this server.</p>
+</body></html>
+
+$$$$$$ Response Body For Transaction With Id 85 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/cgi-bin/welcome.pl?signOff=true
+	/cgi-bin/nav.pl?in=home
+	Form: name= action=/cgi-bin/login.pl
+	/WebTours/home.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 87 ******
+GET /favicon.ico HTTP/1.1
+Host: 127.0.0.1:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701530591&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+Connection: keep-alive
+
+
+$$$$$$ Request Header For Transaction With Id 87 Ended $$$$$$
+
+****** Response Header For Transaction With Id 87 ******
+HTTP/1.1 404 Not Found
+Date: Sat, 02 Dec 2023 15:23:11 GMT
+Server: Apache/2.2.21 (Win32)
+Content-Length: 209
+Keep-Alive: timeout=5, max=96
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 87 Ended $$$$$$
+
+****** Response Body For Transaction With Id 87 ******
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /favicon.ico was not found on this server.</p>
+</body></html>
+
+$$$$$$ Response Body For Transaction With Id 87 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/cgi-bin/welcome.pl?signOff=true
+	/cgi-bin/nav.pl?in=home
+	Form: name= action=/cgi-bin/login.pl
+	/WebTours/home.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 95 ******
+POST /cgi-bin/login.pl HTTP/1.1
+Host: 127.0.0.1:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?in=home
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701530591&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 122
+
+
+$$$$$$ Request Header For Transaction With Id 95 Ended $$$$$$
+
+****** Request Body For Transaction With Id 95 ******
+userSession=137831.558606723HAiQHVApHQfiDDDDtcfDipcztHHf&username=jojo&password=bean&login.x=49&login.y=1&JSFormSubmit=off
+$$$$$$ Request Body For Transaction With Id 95 Ended $$$$$$
+
+****** Response Header For Transaction With Id 95 ******
+HTTP/1.1 200 OK
+Date: Sat, 02 Dec 2023 15:23:23 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&&expDate&%0A; path=/
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 95 Ended $$$$$$
+
+****** Response Body For Transaction With Id 95 ******
+<!--
+User password was correct - added a cookie with the user's default
+information.  Set the user up to make reservations...
+
+--->
+
+<html>
+<title>Web Tours</title>
+<frameset cols="160,*" border=1 frameborder=1>
+<frame src="nav.pl?page=menu&in=home" name="navbar" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+<frame src="login.pl?intro=true" name="info" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+</frameset>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 95 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/cgi-bin/welcome.pl?signOff=true
+	/cgi-bin/nav.pl?in=home
+	Form: name= action=/cgi-bin/login.pl
+	/WebTours/home.html
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 95 ****** (Location Flag : tFlagInsertEnd, Location ID : 95)
+	web_submit_data("login.pl",
+		"Action=http://127.0.0.1:1080/cgi-bin/login.pl",
+		"Method=POST",
+		"TargetFrame=body",
+		"RecContentType=text/html",
+		"Referer=http://127.0.0.1:1080/cgi-bin/nav.pl?in=home",
+		"Snapshot=t2.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=userSession", "Value=137831.558606723HAiQHVApHQfiDDDDtcfDipcztHHf", ENDITEM,
+		"Name=username", "Value=jojo", ENDITEM,
+		"Name=password", "Value=bean", ENDITEM,
+		"Name=login.x", "Value=49", ENDITEM,
+		"Name=login.y", "Value=1", ENDITEM,
+		"Name=JSFormSubmit", "Value=off", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 95 Ended $$$$$$
+
+****** Request Header For Transaction With Id 100 ******
+GET /cgi-bin/nav.pl?page=menu&in=home HTTP/1.1
+Host: 127.0.0.1:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:1080/cgi-bin/login.pl
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701530591&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&&expDate&%0A
+Connection: keep-alive
+
+
+$$$$$$ Request Header For Transaction With Id 100 Ended $$$$$$
+
+****** Response Header For Transaction With Id 100 ******
+HTTP/1.1 200 OK
+Date: Sat, 02 Dec 2023 15:23:24 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Fri, 01 Dec 2023 15:23:24 GMT
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 100 Ended $$$$$$
+
+****** Response Body For Transaction With Id 100 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+
+<style>
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+</style>
+
+<BR><BR><center>
+
+<br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/flights.gif" 
+ALT="Search Flights Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/itinerary.gif" 
+ALT="Itinerary Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/in_home.gif" 
+ALT="Home Button"/></A>
+<br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/signoff.gif" 
+ALT="SignOff Button"/></A></center>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 100 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/login.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 103 ******
+GET /cgi-bin/login.pl?intro=true HTTP/1.1
+Host: 127.0.0.1:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:1080/cgi-bin/login.pl
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701530591&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&&expDate&%0A
+Connection: keep-alive
+
+
+$$$$$$ Request Header For Transaction With Id 103 Ended $$$$$$
+
+****** Response Header For Transaction With Id 103 ******
+HTTP/1.1 200 OK
+Date: Sat, 02 Dec 2023 15:23:24 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 103 Ended $$$$$$
+
+****** Response Body For Transaction With Id 103 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Welcome to Web Tours</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}</style><BR/><BR/><BR/><BR/><BR/><blockquote>Welcome, <b>jojo</b>, to the Web Tours reservation pages.<BR/>Using the menu to the left, you can search for new flights to book, 
+or review/edit the flights already booked.  Don't forget to sign off when
+you're done!
+</blockquote>
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 103 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/login.pl
+		/cgi-bin/nav.pl?page=menu&in=home
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 110 ******
+GET /cgi-bin/welcome.pl?page=search HTTP/1.1
+Host: 127.0.0.1:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701530591&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&&expDate&%0A
+Connection: keep-alive
+
+
+$$$$$$ Request Header For Transaction With Id 110 Ended $$$$$$
+
+****** Response Header For Transaction With Id 110 ******
+HTTP/1.1 200 OK
+Date: Sat, 02 Dec 2023 15:23:35 GMT
+Server: Apache/2.2.21 (Win32)
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 110 Ended $$$$$$
+
+****** Response Body For Transaction With Id 110 ******
+<!-- 
+ User has returned to the search page.  Since user has already logged on,
+ we can give them the menu in the navbar.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?page=menu&in=flights" name="navbar" 
+            marginheight="2" marginwidth="2" norseize="noresize" scrolling="auto"/>
+      <!-- Reservation Frame -->
+      <frame src="reservations.pl?page=welcome" name="info" 
+            marginheight="2" marginwidth="2" norseize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 110 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/login.pl
+		/cgi-bin/nav.pl?page=menu&in=home
+		/cgi-bin/login.pl?intro=true
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 110 ****** (Location Flag : tFlagInsertEnd, Location ID : 110)
+	web_url("Search Flights Button",
+		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search",
+		"TargetFrame=body",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home",
+		"Snapshot=t3.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 110 Ended $$$$$$
+
+****** Request Header For Transaction With Id 115 ******
+GET /cgi-bin/nav.pl?page=menu&in=flights HTTP/1.1
+Host: 127.0.0.1:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701530591&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&&expDate&%0A
+Connection: keep-alive
+
+
+$$$$$$ Request Header For Transaction With Id 115 Ended $$$$$$
+
+****** Response Header For Transaction With Id 115 ******
+HTTP/1.1 200 OK
+Date: Sat, 02 Dec 2023 15:23:35 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Fri, 01 Dec 2023 15:23:35 GMT
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 115 Ended $$$$$$
+
+****** Response Body For Transaction With Id 115 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+
+<style>
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+</style>
+
+<BR><BR><center>
+
+<br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/in_flights.gif" 
+ALT="Search Flights Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/itinerary.gif" 
+ALT="Itinerary Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/home.gif" 
+ALT="Home Button"/></A>
+<br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/signoff.gif" 
+ALT="SignOff Button"/></A></center>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 115 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/welcome.pl?page=search
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 118 ******
+GET /cgi-bin/reservations.pl?page=welcome HTTP/1.1
+Host: 127.0.0.1:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?page=search
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701530591&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&&expDate&%0A
+Connection: keep-alive
+
+
+$$$$$$ Request Header For Transaction With Id 118 Ended $$$$$$
+
+****** Response Header For Transaction With Id 118 ******
+HTTP/1.1 200 OK
+Date: Sat, 02 Dec 2023 15:23:35 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Fri, 01 Dec 2023 15:23:36 GMT
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 118 Ended $$$$$$
+
+****** Response Body For Transaction With Id 118 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Flight Selections</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b></h1><blockquote>
+<form method="post" action="reservations.pl" enctype="application/x-www-form-urlencoded" onsubmit="" name="DestForm">
+<input type="hidden" name="advanceDiscount" value="0"  /><table border="0" cellspacing="5"><tr><td align="left">Departure City :</td> <td><select name="depart" >
+<option selected="selected" value="Denver">Denver</option>
+<option value="Frankfurt">Frankfurt</option>
+<option value="London">London</option>
+<option value="Los Angeles">Los Angeles</option>
+<option value="Paris">Paris</option>
+<option value="Portland">Portland</option>
+<option value="San Francisco">San Francisco</option>
+<option value="Seattle">Seattle</option>
+<option value="Sydney">Sydney</option>
+<option value="Zurich">Zurich</option>
+</select></td> <td align="left">Departure Date :</td> <td><input type="text" name="departDate" value="12/03/2023" size="10" maxlength="10" /> 
+<!-- Departure Date Applet -->
+<APPLET CODEBASE="/WebTours/classes/" CODE="FormDateUpdate.class" MAYSCRIPT Width=26 Height=28 BORDER=0>
+   <PARAM NAME=CalenderTitle  VALUE="Select Departure Date">
+   <PARAM NAME=HtmlFormIndex  VALUE=0>
+   <PARAM NAME=HtmlEditIndex  VALUE=2>
+   <PARAM NAME=AutoClose      VALUE=1>
+   <PARAM NAME=Label          VALUE="...">
+</APPLET>
+</td></tr> <tr><td align="left">Arrival City :</td> <td><select name="arrive" >
+<option selected="selected" value="Denver">Denver</option>
+<option value="Frankfurt">Frankfurt</option>
+<option value="London">London</option>
+<option value="Los Angeles">Los Angeles</option>
+<option value="Paris">Paris</option>
+<option value="Portland">Portland</option>
+<option value="San Francisco">San Francisco</option>
+<option value="Seattle">Seattle</option>
+<option value="Sydney">Sydney</option>
+<option value="Zurich">Zurich</option>
+</select></td> <td align="left">Return Date :</td> <td><input type="text" name="returnDate" value="12/04/2023" size="10" maxlength="10" /> 
+<!-- Return Date Applet -->
+<APPLET CODEBASE="/WebTours/classes/" CODE="FormDateUpdate.class" MAYSCRIPT Width=26 Height=28 BORDER=0>
+   <PARAM NAME=CalenderTitle  VALUE="Select Return Date">
+   <PARAM NAME=HtmlFormIndex  VALUE=0>
+   <PARAM NAME=HtmlEditIndex  VALUE=4>
+   <PARAM NAME=AutoClose      VALUE=1>
+   <PARAM NAME=Label          VALUE="...">
+</APPLET>
+</td></tr> <tr><td align="left">No. of Passengers : </td> <td><input type="text" name="numPassengers" value="1" size="3" maxlength="8" /></td> <td colspan="2"><label><input type="checkbox" name="roundtrip" value="on" />Roundtrip ticket</label></td></tr> <tr><td>Seating Preference</td> <td /> <td>Type of Seat</td></tr> <tr><td><label><input type="radio" name="seatPref" value="Aisle" />Aisle</label><br /> <label><input type="radio" name="seatPref" value="Window" />Window</label><br /> <label><input type="radio" name="seatPref" value="None" checked="checked" />None</label><br /></td> <td /> <td><label><input type="radio" name="seatType" value="First" />First</label><br /> <label><input type="radio" name="seatType" value="Business" />Business</label><br /> <label><input type="radio" name="seatType" value="Coach" checked="checked" />Coach</label><br /></td></tr> <tr><td height="10" /></tr> <tr><td align="center" colspan="4"><input type="image" name="findFlights" src="/WebTours/images/button_next.gif" border="0" /></td></tr></table><div><input type="hidden" name=".cgifields" value="roundtrip"  /><input type="hidden" name=".cgifields" value="seatType"  /><input type="hidden" name=".cgifields" value="seatPref"  /></div></form>
+</blockquote>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 118 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/welcome.pl?page=search
+		/cgi-bin/nav.pl?page=menu&in=flights
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 132 ******
+POST /cgi-bin/reservations.pl HTTP/1.1
+Host: 127.0.0.1:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701530591&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&&expDate&%0A
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 239
+
+
+$$$$$$ Request Header For Transaction With Id 132 Ended $$$$$$
+
+****** Request Body For Transaction With Id 132 ******
+advanceDiscount=0&depart=Denver&departDate=12%2F03%2F2023&arrive=Frankfurt&returnDate=12%2F04%2F2023&numPassengers=1&seatPref=None&seatType=Coach&findFlights.x=65&findFlights.y=6&.cgifields=roundtrip&.cgifields=seatType&.cgifields=seatPref
+$$$$$$ Request Body For Transaction With Id 132 Ended $$$$$$
+
+****** Response Header For Transaction With Id 132 ******
+HTTP/1.1 200 OK
+Date: Sat, 02 Dec 2023 15:23:57 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Fri, 01 Dec 2023 15:23:57 GMT
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 132 Ended $$$$$$
+
+****** Response Body For Transaction With Id 132 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Flight Selections</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Find Flight</font></b></h1><blockquote>
+<form method="post" action="reservations.pl" enctype="application/x-www-form-urlencoded">
+
+<center>
+<!-- From Denver (0) To Frankfurt (1) -->
+<table cellspacing="2" border="0" width="50%">
+<blockquote>Flight departing from <B>Denver</B> to <B>Frankfurt</B> on <B>12/03/2023</B><BR/><BR/><tr bgcolor="#5E7884"><td align="center"><font color="white"><B>Flight</B></font>
+      		<td align="center"><font color="white"><B>Departure time</B>
+      		<td align="center"><font color="white"><B>Cost</B>
+<tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="outboundFlight" value="010;386;12/03/2023" checked="checked" >Blue Sky Air 010<td align="center">8am<td align="center">$ 386</TD></TR><tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="outboundFlight" value="011;343;12/03/2023">Blue Sky Air 011<td align="center">1pm<td align="center">$ 343</TD></TR><tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="outboundFlight" value="012;365;12/03/2023">Blue Sky Air 012<td align="center">5pm<td align="center">$ 365</TD></TR><tr bgcolor="#EFF2F7"><td align="center"><input type="radio" name="outboundFlight" value="013;315;12/03/2023">Blue Sky Air 013<td align="center">11pm<td align="center">$ 315</TD></TR></table>
+
+<input type="hidden" name="numPassengers" value="1"  /><input type="hidden" name="advanceDiscount" value="0"  /><input type="hidden" name="seatType" value="Coach"  /><input type="hidden" name="seatPref" value="None"  />
+<P><center><table width=80% cellspacing=1><tr><td align=center>
+<input type="image" name="reserveFlights" src="/WebTours/images/button_next.gif" border="0" />
+<td>&nbsp;<td align=center></table></center></form></center>
+</blockquote>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 132 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/welcome.pl?page=search
+		/cgi-bin/nav.pl?page=menu&in=flights
+		/cgi-bin/reservations.pl?page=welcome
+		Form: name=DestForm action=reservations.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 132 ****** (Location Flag : tFlagInsertEnd, Location ID : 132)
+	web_submit_data("reservations.pl",
+		"Action=http://127.0.0.1:1080/cgi-bin/reservations.pl",
+		"Method=POST",
+		"TargetFrame=",
+		"RecContentType=text/html",
+		"Referer=http://127.0.0.1:1080/cgi-bin/reservations.pl?page=welcome",
+		"Snapshot=t4.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=advanceDiscount", "Value=0", ENDITEM,
+		"Name=depart", "Value=Denver", ENDITEM,
+		"Name=departDate", "Value=12/03/2023", ENDITEM,
+		"Name=arrive", "Value=Frankfurt", ENDITEM,
+		"Name=returnDate", "Value=12/04/2023", ENDITEM,
+		"Name=numPassengers", "Value=1", ENDITEM,
+		"Name=seatPref", "Value=None", ENDITEM,
+		"Name=seatType", "Value=Coach", ENDITEM,
+		"Name=findFlights.x", "Value=65", ENDITEM,
+		"Name=findFlights.y", "Value=6", ENDITEM,
+		"Name=.cgifields", "Value=roundtrip", ENDITEM,
+		"Name=.cgifields", "Value=seatType", ENDITEM,
+		"Name=.cgifields", "Value=seatPref", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 132 Ended $$$$$$
+
+****** Request Header For Transaction With Id 138 ******
+POST /cgi-bin/reservations.pl HTTP/1.1
+Host: 127.0.0.1:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:1080/cgi-bin/reservations.pl
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701530591&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&&expDate&%0A
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 144
+
+
+$$$$$$ Request Header For Transaction With Id 138 Ended $$$$$$
+
+****** Request Body For Transaction With Id 138 ******
+outboundFlight=010%3B386%3B12%2F03%2F2023&numPassengers=1&advanceDiscount=0&seatType=Coach&seatPref=None&reserveFlights.x=46&reserveFlights.y=11
+$$$$$$ Request Body For Transaction With Id 138 Ended $$$$$$
+
+****** Response Header For Transaction With Id 138 ******
+HTTP/1.1 200 OK
+Date: Sat, 02 Dec 2023 15:24:11 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Fri, 01 Dec 2023 15:24:11 GMT
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 138 Ended $$$$$$
+
+****** Response Body For Transaction With Id 138 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Flight Reservation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Payment Details</font></b></h1><blockquote><form method="post" action="reservations.pl" enctype="application/x-www-form-urlencoded" onsubmit="return true ;">
+<table><tr><td align="right">First Name : <td><input type="text" name="firstName" value="Jojo" size="15" /><tr><td align="right">Last Name : <td><input type="text" name="lastName" value="Bean&#10;" size="15" /><tr><td align="right">Street Address : <td colspan="3"><input type="text" name="address1"  size="30" /><tr><td align="right">City/State/Zip : <td colspan="3"><input type="text" name="address2"  size="30" /><tr><td align="right">Passenger Names : <td colspan="3"><input type="text" name="pass1" value="Jojo Bean&#10;" size="30" /><tr><td height="10"><tr><td height="10" align="center" colspan="4">Total for 1 ticket(s) is = $ 386<tr><td align="right">Credit Card : <td><input type="text" name="creditCard"  size="20" maxlength="20" /><td align="right">Exp Date : <td><input type="text" name="expDate" value="&#10;" size="5" maxlength="5" /><tr><TD><td colspan="3" align="left"><label><input type="checkbox" name="saveCC" value="on" />Save this Credit Card Information</label><input type="hidden" name="oldCCOption" value=""  /></table><input type="hidden" name="numPassengers" value="1"  /><input type="hidden" name="seatType" value="Coach"  /><input type="hidden" name="seatPref" value="None"  /><input type="hidden" name="outboundFlight" value="010;386;12/03/2023"  /><input type="hidden" name="advanceDiscount" value="0"  /><input type="hidden" name="returnFlight" value=""  /><input type="hidden" name="JSFormSubmit" value="off"  /><center><table width=80% cellspacing=1><tr><td align=center>
+<input type="image" name="buyFlights" src="/WebTours/images/button_next.gif" border="0" /><div><input type="hidden" name=".cgifields" value="saveCC"  /></div></form>
+<td>&nbsp;<td align=center><form method="post" action="reservations.pl" enctype="application/x-www-form-urlencoded" onsubmit="void(0);">
+</form></table></center></blockquote>
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 138 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/welcome.pl?page=search
+		/cgi-bin/nav.pl?page=menu&in=flights
+		/cgi-bin/reservations.pl
+		Form: name= action=reservations.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 138 ****** (Location Flag : tFlagInsertEnd, Location ID : 138)
+	web_submit_data("reservations.pl_2",
+		"Action=http://127.0.0.1:1080/cgi-bin/reservations.pl",
+		"Method=POST",
+		"TargetFrame=",
+		"RecContentType=text/html",
+		"Referer=http://127.0.0.1:1080/cgi-bin/reservations.pl",
+		"Snapshot=t5.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=outboundFlight", "Value=010;386;12/03/2023", ENDITEM,
+		"Name=numPassengers", "Value=1", ENDITEM,
+		"Name=advanceDiscount", "Value=0", ENDITEM,
+		"Name=seatType", "Value=Coach", ENDITEM,
+		"Name=seatPref", "Value=None", ENDITEM,
+		"Name=reserveFlights.x", "Value=46", ENDITEM,
+		"Name=reserveFlights.y", "Value=11", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 138 Ended $$$$$$
+
+****** Request Header For Transaction With Id 144 ******
+POST /cgi-bin/reservations.pl HTTP/1.1
+Host: 127.0.0.1:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:1080/cgi-bin/reservations.pl
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701530591&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&&expDate&%0A
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 300
+
+
+$$$$$$ Request Header For Transaction With Id 144 Ended $$$$$$
+
+****** Request Body For Transaction With Id 144 ******
+firstName=Jojo&lastName=Bean&address1=&address2=&pass1=Jojo+Bean&creditCard=1234567890&expDate=03%2F25&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=None&outboundFlight=010%3B386%3B12%2F03%2F2023&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buyFlights.x=62&buyFlights.y=9&.cgifields=saveCC
+$$$$$$ Request Body For Transaction With Id 144 Ended $$$$$$
+
+****** Response Header For Transaction With Id 144 ******
+HTTP/1.1 200 OK
+Date: Sat, 02 Dec 2023 15:24:36 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Fri, 01 Dec 2023 15:24:36 GMT
+Set-Cookie: MTUserInfo=firstName&Jojo&username&jojo&address2&&hash&47&address1&&lastName&Bean%0A; path=/
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 144 Ended $$$$$$
+
+****** Response Body For Transaction With Id 144 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Reservation Made!</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Invoice</font></b></h1><blockquote>
+<CENTER>
+<small><B>Thank you for booking through Web Tours.</B></small>
+<BR/>
+<BR/>
+<!-- Customer Name header -->
+<Table width="85%" border="0" cellspacing="0" >
+  <TR bgcolor="#5E7884">
+     <TD colspan="2" align="center">
+        <font color="white"><b>JojoBean's Flight Invoice</b></font>
+     </TD>
+     <TD width="160" align="right">
+         <font color="white"><small>Sat Dec  2 18:24:36 2023
+</small>
+     </TD>
+  </TR>
+</Table>
+
+<Table width="85%" border="0" cellspacing="1" >
+<!-- Flight Item header -->
+  <TR bgcolor="#EFF2F7">
+     <TD colspan="2" align="left">
+         Flights Reservation Requests:
+    </TD>
+    <TD align="center">Cost
+    </TD>
+  </TR>
+
+<!-- Flight reserved -->
+<TR bgcolor="#EFF2F7">
+    <TD valign="top">1.</TD>
+    <TD align="left">
+       A Coach Class ticket
+ from Denver to Frankfurt.</u></b>
+<br/>
+<center>
+       <i>
+          12/03/2023 :  8am : Flight 010 leaves Denver  for Frankfurt.<br>
+       <br/>
+    </TD>
+    <TD valign="top">
+         $386
+    </TD>
+  </TR>
+<!-- Total Cost -->
+  <TR bgcolor="#EFF2F7">
+    <TD>*
+    </TD>
+    <TD > Total Cost
+    </TD>
+    <TD>
+       <b> $386 </b>
+    </TD>
+  </TR>
+
+  <TR bgcolor="#EFF2F7">
+    <TD>-
+    </TD>
+    <TD >
+       Total Charged to Credit Card # 1234567890
+    </TD>
+    <TD>
+       <b> $386 </b>
+    </TD>
+  </TR>
+
+  <TR bgcolor="#EFF2F7">
+    <TD>*
+    </TD>
+    <TD >
+        Credit Account Balance
+    </TD>
+    <TD>
+       <b> $0.00 </b>
+    </TD>
+  </TR></Table>
+<BR/>
+<Table width="85%" border="0">
+  <tr>
+    <td align=right>
+<form method="post" action="" enctype="application/x-www-form-urlencoded">
+<input type="image" name="Book Another" src="/WebTours/images/bookanother.gif" border="0" /></form>    </td>
+  </tr>
+</Table>
+
+</Center>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 144 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/welcome.pl?page=search
+		/cgi-bin/nav.pl?page=menu&in=flights
+		/cgi-bin/reservations.pl
+		Form: name= action=reservations.pl
+		Form: name= action=reservations.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 144 ****** (Location Flag : tFlagInsertEnd, Location ID : 144)
+	web_submit_data("reservations.pl_3",
+		"Action=http://127.0.0.1:1080/cgi-bin/reservations.pl",
+		"Method=POST",
+		"TargetFrame=",
+		"RecContentType=text/html",
+		"Referer=http://127.0.0.1:1080/cgi-bin/reservations.pl",
+		"Snapshot=t6.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=firstName", "Value=Jojo", ENDITEM,
+		"Name=lastName", "Value=Bean", ENDITEM,
+		"Name=address1", "Value=", ENDITEM,
+		"Name=address2", "Value=", ENDITEM,
+		"Name=pass1", "Value=Jojo Bean", ENDITEM,
+		"Name=creditCard", "Value=1234567890", ENDITEM,
+		"Name=expDate", "Value=03/25", ENDITEM,
+		"Name=oldCCOption", "Value=", ENDITEM,
+		"Name=numPassengers", "Value=1", ENDITEM,
+		"Name=seatType", "Value=Coach", ENDITEM,
+		"Name=seatPref", "Value=None", ENDITEM,
+		"Name=outboundFlight", "Value=010;386;12/03/2023", ENDITEM,
+		"Name=advanceDiscount", "Value=0", ENDITEM,
+		"Name=returnFlight", "Value=", ENDITEM,
+		"Name=JSFormSubmit", "Value=off", ENDITEM,
+		"Name=buyFlights.x", "Value=62", ENDITEM,
+		"Name=buyFlights.y", "Value=9", ENDITEM,
+		"Name=.cgifields", "Value=saveCC", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 144 Ended $$$$$$
+
+****** Request Header For Transaction With Id 159 ******
+GET /cgi-bin/welcome.pl?page=itinerary HTTP/1.1
+Host: 127.0.0.1:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701530591&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Jojo&username&jojo&address2&&hash&47&address1&&lastName&Bean%0A
+Connection: keep-alive
+
+
+$$$$$$ Request Header For Transaction With Id 159 Ended $$$$$$
+
+****** Response Header For Transaction With Id 159 ******
+HTTP/1.1 200 OK
+Date: Sat, 02 Dec 2023 15:24:53 GMT
+Server: Apache/2.2.21 (Win32)
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 159 Ended $$$$$$
+
+****** Response Body For Transaction With Id 159 ******
+<!-- 
+ User wants the intineraries.  Since user has already logged on,
+ we can give them the menu in the navbar.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?page=menu&in=itinerary" name="navbar" 
+            marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+      <!-- Itinerary Frame -->
+      <frame src="itinerary.pl" name="info" 
+            marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 159 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/welcome.pl?page=search
+		/cgi-bin/nav.pl?page=menu&in=flights
+		/cgi-bin/reservations.pl
+		Form: name= action=
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 159 ****** (Location Flag : tFlagInsertEnd, Location ID : 159)
+	web_url("Itinerary Button",
+		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary",
+		"TargetFrame=body",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=flights",
+		"Snapshot=t7.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 159 Ended $$$$$$
+
+****** Request Header For Transaction With Id 164 ******
+GET /cgi-bin/nav.pl?page=menu&in=itinerary HTTP/1.1
+Host: 127.0.0.1:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701530591&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Jojo&username&jojo&address2&&hash&47&address1&&lastName&Bean%0A
+Connection: keep-alive
+
+
+$$$$$$ Request Header For Transaction With Id 164 Ended $$$$$$
+
+****** Response Header For Transaction With Id 164 ******
+HTTP/1.1 200 OK
+Date: Sat, 02 Dec 2023 15:24:53 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Fri, 01 Dec 2023 15:24:53 GMT
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 164 Ended $$$$$$
+
+****** Response Body For Transaction With Id 164 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+
+<style>
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+</style>
+
+<BR><BR><center>
+
+<br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/flights.gif" 
+ALT="Search Flights Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/in_itinerary.gif" 
+ALT="Itinerary Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/home.gif" 
+ALT="Home Button"/></A>
+<br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/signoff.gif" 
+ALT="SignOff Button"/></A></center>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 164 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/welcome.pl?page=itinerary
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 167 ******
+GET /cgi-bin/itinerary.pl HTTP/1.1
+Host: 127.0.0.1:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?page=itinerary
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701530591&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Jojo&username&jojo&address2&&hash&47&address1&&lastName&Bean%0A
+Connection: keep-alive
+
+
+$$$$$$ Request Header For Transaction With Id 167 Ended $$$$$$
+
+****** Response Header For Transaction With Id 167 ******
+HTTP/1.1 200 OK
+Date: Sat, 02 Dec 2023 15:24:53 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Fri, 01 Dec 2023 15:24:53 GMT
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 167 Ended $$$$$$
+
+****** Response Body For Transaction With Id 167 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Flights List</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 8pt; color: black}</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Itinerary</font></b></h1><blockquote><form method="post" action="itinerary.pl" enctype="application/x-www-form-urlencoded">
+<center>
+<TABLE BORDER="0" WIDTH="85%" CELLSPACING="0">
+<TR bgcolor="#5E7884">
+  <TD colspan="4" align="center"><font color="white"><B>Jojo Bean
+ 's Flight Transaction Summary</B></color></TD></TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="1" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="210297424-100296-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          Gray Street<br/>
+          Denver<br/>
+          <br/>
+          Total Charge: $ 858 <BR/> (CC: x-5678)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  05/18/20
+ :  8am : Flight 030 leaves Denver  for Los Angeles.<br>  05/22/20
+ :  11pm : Flight 303 leaves Los Angeles  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="2" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="210297416-177189-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A First class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          Green St<br/>
+          Denwer<br/>
+          <br/>
+          Total Charge: $ 457 <BR/> (CC: x-5678)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  05/18/20
+ :  8am : Flight 030 leaves Denver  for Los Angeles.<br>  05/22/20
+ :  11pm : Flight 303 leaves Los Angeles  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="3" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="210297416-254112-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          Green St<br/>
+          Denwer<br/>
+          <br/>
+          Total Charge: $ 457 <BR/> (CC: x-5678)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  05/18/20
+ :  8am : Flight 030 leaves Denver  for Los Angeles.<br>  05/22/20
+ :  11pm : Flight 303 leaves Los Angeles  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="4" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="210297424-331066-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A First class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          Gray Street<br/>
+          Denver<br/>
+          <br/>
+          Total Charge: $ 858 <BR/> (CC: x-5678)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  05/18/20
+ :  8am : Flight 030 leaves Denver  for Los Angeles.<br>  05/22/20
+ :  11pm : Flight 303 leaves Los Angeles  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="5" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="210297424-407989-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A First class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          Gray Street<br/>
+          Denver<br/>
+          <br/>
+          Total Charge: $ 858 <BR/> (CC: x-5678)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  05/18/20
+ :  8am : Flight 030 leaves Denver  for Los Angeles.<br>  05/22/20
+ :  11pm : Flight 303 leaves Los Angeles  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="6" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="33492785-48-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;7 First class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Jojo      <li><i>      <li><i>      <li><i>      <li><i>      <li><i>      <li><i>
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          PIrogovo<br/>
+          Moscow<br/>
+          <br/>
+          Total Charge: $ 35 <BR/> (CC: x-9043)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  5pm : Flight 052 leaves Denver  for Portland.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="7" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-0-P"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp; Jojo Jojo class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+052      <li><i>05/21/20
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          PIrogovo
+ <br/>
+          Moscow<br/>
+          9043;23/12<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-7)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  0 :  8am : Flight  leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="8" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-0-M"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;052 05/21/20
+ class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>      <li><i>0      <li><i>0jojo      <li><i>jojo
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Moscow
+ <br/>
+          9043;23/12<br/>
+          7;First;Window<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  &#1083 :  8am : Flight &#1050 leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="9" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="4-0-60"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;110 0 class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+jojo      <li><i>jojo
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          6789 05/25
+<br/>
+          1;First;Aisle<br/>
+          ;jojo jojo<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-110)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  &#1083 :  8am : Flight &#1050 leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="10" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="8-0-60"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;220 0 class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+jojo      <li><i>jojo
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          6789 05/25
+<br/>
+          1;Business;Window<br/>
+          ;jojo jojo<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-220)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  &#1083 :  8am : Flight &#1050 leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="11" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="1-0-60"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;50 275 class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+jojo      <li><i>jojo
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          6789 05/25
+<br/>
+          1;Coach;None<br/>
+          ;jojo jojo<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-50)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  &#1083 :  8am : Flight &#1050 leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="12" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-0-5&#10;"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+jojo      <li><i>jojo
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          5678 
+<br/>
+          1;First;Aisle<br/>
+          ;jojo  jojo<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-000)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  &#1083 :  8am : Flight &#1050 leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="13" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="6-1-5&#10;"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+jojo      <li><i>jojo
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          5678 
+<br/>
+          1;Coach;Window<br/>
+          ;jojo  jojo<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-170)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  &#1083 :  8am : Flight &#1050 leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="14" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="8-1-5&#10;"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+jojo      <li><i>jojo
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          5678 
+<br/>
+          1;Business;None<br/>
+          ;jojo  jojo<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-230)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  &#1083 :  8am : Flight &#1050 leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="15" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="12-1-5&#10;"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+jojo      <li><i>jojo
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          5678 
+<br/>
+          1;Coach;Aisle<br/>
+          ;jojo  jojo<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-350)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  &#1083 :  8am : Flight &#1050 leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="16" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="15-1-5&#10;"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+jojo      <li><i>jojo
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          5678 
+<br/>
+          1;First;Window<br/>
+          ;jojo  jojo<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-420)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  &#1083 :  8am : Flight &#1050 leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="17" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="21-1-5&#10;"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+Jojo      <li><i>Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          5678 
+<br/>
+          1;Business;None<br/>
+          ;jojo  jojo<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-580)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight 
+ leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="18" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-1-&#10;"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+Jojo      <li><i>Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+           
+<br/>
+          1;Coach;None<br/>
+          ;Jojo Bean<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-000)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight 
+ leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="19" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="3-1-&#10;"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+Jojo      <li><i>Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+           
+<br/>
+          1;Coach;None<br/>
+          ;Jojo Bean<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-100)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight 
+ leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="20" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-1-&#10;"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+Jojo      <li><i>Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+           
+<br/>
+          1;Coach;None<br/>
+          ;Jojo Bean<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-010)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight 
+ leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="21" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="3-1-10"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+Jojo      <li><i>Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          1234567890 03/25
+<br/>
+          1;Business;Window<br/>
+          ;Jojo Bean<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-101)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight 
+ leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="22" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="3-1-1&#10;"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+Jojo      <li><i>Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          12345 
+<br/>
+          1;Coach;None<br/>
+          ;Jojo Bean<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-101)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight 
+ leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="23" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-1-10"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+Jojo      <li><i>Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          12345678 03/25
+<br/>
+          1;Coach;Window<br/>
+          ;Jojo Bean<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-011)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight 
+ leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="24" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-1-1&#10;"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+Jojo      <li><i>Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          12345678 
+<br/>
+          1;Coach;None<br/>
+          ;Jojo Bean<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-011)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight Dghj
+ leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="25" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-1-11"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+Jojo      <li><i>Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          1234567890 12/30
+<br/>
+          1;Coach;Window<br/>
+          ;Jojo Bean<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-010)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight 
+ leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="26" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-2-10"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+Jojo      <li><i>Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          123456 03/25
+<br/>
+          1;Coach;None<br/>
+          ;Jojo Bean<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-010)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight 
+ leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="27" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-2-10"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+Jojo      <li><i>Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          123456 03/25
+<br/>
+          1;Coach;None<br/>
+          ;Jojo Bean<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-010)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight 
+ leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="28" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-2-10"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+Marfa      <li><i>Nikitina
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          123456 03/25
+<br/>
+          1;Coach;None<br/>
+          ;Jojo Bean<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-010)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight 
+ leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="29" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-2-10"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+Jojo      <li><i>Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          123456 03/25
+<br/>
+          1;Coach;Window<br/>
+          ;Marfa Nikitina<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-010)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight 
+ leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="30" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-2-10"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+Jojo      <li><i>Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          1234567 03/25
+<br/>
+          1;Coach;None<br/>
+          ;Jojo Bean<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-010)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight 
+ leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="31" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-2-10"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+Jojo      <li><i>Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          12345678 03/25
+<br/>
+          1;Coach;None<br/>
+          ;Jojo Bean<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-010)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight 
+ leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="32" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="0-24-10"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;0 0 class tickets for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+</i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          1234567890 03/25
+<br/>
+          1;Coach;None<br/>
+          ;Jojo Bean<br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-010)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+   :  8am : Flight  leaves Denver  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+<TR>
+   <TD align="center" COLSPAN="4">
+   <b>A total of 32 scheduled flights.</font></b>
+   </TD>
+</TR>
+</TABLE>
+
+<TABLE WIDTH="87%" BORDER="0" CELLSPACING="0">
+<TR>
+<TD align="left" width="50%" >
+<input type="image" name="removeFlights" src="/WebTours/images/cancelreservation.gif" border="0" /></TD>
+<TD align="right" width="50%" >
+<input type="image" name="removeAllFlights" src="/WebTours/images/cancelallreservations.gif" border="0" /></TD>
+</TABLE>
+
+<div><input type="hidden" name=".cgifields" value="32"  /><input type="hidden" name=".cgifields" value="21"  /><input type="hidden" name=".cgifields" value="7"  /><input type="hidden" name=".cgifields" value="26"  /><input type="hidden" name=".cgifields" value="17"  /><input type="hidden" name=".cgifields" value="2"  /><input type="hidden" name=".cgifields" value="1"  /><input type="hidden" name=".cgifields" value="18"  /><input type="hidden" name=".cgifields" value="30"  /><input type="hidden" name=".cgifields" value="16"  /><input type="hidden" name=".cgifields" value="27"  /><input type="hidden" name=".cgifields" value="25"  /><input type="hidden" name=".cgifields" value="28"  /><input type="hidden" name=".cgifields" value="20"  /><input type="hidden" name=".cgifields" value="14"  /><input type="hidden" name=".cgifields" value="24"  /><input type="hidden" name=".cgifields" value="10"  /><input type="hidden" name=".cgifields" value="31"  /><input type="hidden" name=".cgifields" value="11"  /><input type="hidden" name=".cgifields" value="22"  /><input type="hidden" name=".cgifields" value="13"  /><input type="hidden" name=".cgifields" value="23"  /><input type="hidden" name=".cgifields" value="29"  /><input type="hidden" name=".cgifields" value="6"  /><input type="hidden" name=".cgifields" value="3"  /><input type="hidden" name=".cgifields" value="9"  /><input type="hidden" name=".cgifields" value="12"  /><input type="hidden" name=".cgifields" value="15"  /><input type="hidden" name=".cgifields" value="8"  /><input type="hidden" name=".cgifields" value="4"  /><input type="hidden" name=".cgifields" value="19"  /><input type="hidden" name=".cgifields" value="5"  /></div></form>
+
+</center>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 167 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/welcome.pl?page=itinerary
+		/cgi-bin/nav.pl?page=menu&in=itinerary
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 176 ******
+GET /cgi-bin/welcome.pl?signOff=1 HTTP/1.1
+Host: 127.0.0.1:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701530591&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Jojo&username&jojo&address2&&hash&47&address1&&lastName&Bean%0A
+Connection: keep-alive
+
+
+$$$$$$ Request Header For Transaction With Id 176 Ended $$$$$$
+
+****** Response Header For Transaction With Id 176 ******
+HTTP/1.1 200 OK
+Date: Sat, 02 Dec 2023 15:25:05 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1701530705&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Fri, 01-Dec-2023 15:25:05 GMT
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 176 Ended $$$$$$
+
+****** Response Body For Transaction With Id 176 ******
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 176 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/welcome.pl?page=itinerary
+		/cgi-bin/nav.pl?page=menu&in=itinerary
+		/cgi-bin/itinerary.pl
+		Form: name= action=itinerary.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 176 ****** (Location Flag : tFlagInsertEnd, Location ID : 176)
+	web_url("SignOff Button",
+		"URL=http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1",
+		"TargetFrame=body",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary",
+		"Snapshot=t8.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 176 Ended $$$$$$
+
+****** Request Header For Transaction With Id 181 ******
+GET /cgi-bin/nav.pl?in=home HTTP/1.1
+Host: 127.0.0.1:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701530705&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+Connection: keep-alive
+
+
+$$$$$$ Request Header For Transaction With Id 181 Ended $$$$$$
+
+****** Response Header For Transaction With Id 181 ******
+HTTP/1.1 200 OK
+Date: Sat, 02 Dec 2023 15:25:05 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Fri, 01 Dec 2023 15:25:05 GMT
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 181 Ended $$$$$$
+
+****** Response Body For Transaction With Id 181 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="137831.567841231HAiQHVVpcHAiDDDDtcfDipczHzcf"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 181 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/welcome.pl?signOff=1
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 184 ******
+GET /WebTours/home.html HTTP/1.1
+Host: 127.0.0.1:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=1
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701530705&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
+Connection: keep-alive
+If-Modified-Since: Mon, 27 May 2013 11:20:22 GMT
+If-None-Match: "300000008ba75-551-4ddb1559ac980"
+
+
+$$$$$$ Request Header For Transaction With Id 184 Ended $$$$$$
+
+****** Response Header For Transaction With Id 184 ******
+HTTP/1.1 304 Not Modified
+Date: Sat, 02 Dec 2023 15:25:05 GMT
+Server: Apache/2.2.21 (Win32)
+Connection: Keep-Alive
+Keep-Alive: timeout=5, max=100
+ETag: "300000008ba75-551-4ddb1559ac980"
+
+
+$$$$$$ Response Header For Transaction With Id 184 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+		/WebTours/home.html
+	/cgi-bin/welcome.pl?signOff=1
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+

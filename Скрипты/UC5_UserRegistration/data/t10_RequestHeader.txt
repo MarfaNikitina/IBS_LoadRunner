@@ -1,0 +1,10 @@
+GET /cgi-bin/welcome.pl?signOff=1 HTTP/1.1
+Host: 127.0.0.1:1080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home
+Cookie: csrftoken=Pu1k109gOPWuGFN6iUUFJu41ZueeAvRA0cm8ZuPYBWoIXc2NH7hGZTrBoadTWaBz; MSO=SID&1701614185&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Moko&address2&Monako&username&Moko&hash&15&lastName&moko%0A&address1&mokoloko&creditCard&&expDate&%0A
+Connection: keep-alive
+

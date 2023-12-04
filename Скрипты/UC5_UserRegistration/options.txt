@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\User\Documents\WebTours_Scripts\UC5_UserRegistration
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\user\documents\webtours_scripts\uc5_userregistration\\logfile.log
+c:\users\user\documents\webtours_scripts\uc5_userregistration\\combined_UC5_UserRegistration.c
+c:\users\user\documents\webtours_scripts\uc5_userregistration\\pre_cci.c

@@ -1,0 +1,32 @@
+[
+    {
+        "transactionName": "StartPage",
+        "rawStartTime": 1701698572066,
+        "rawEndTime": 1701698572285
+    },
+    {
+        "transactionName": "Login",
+        "rawStartTime": 1701698572306,
+        "rawEndTime": 1701698572491
+    },
+    {
+        "transactionName": "AllBookings",
+        "rawStartTime": 1701698572511,
+        "rawEndTime": 1701698572719
+    },
+    {
+        "transactionName": "Delete Flight",
+        "rawStartTime": 1701698572743,
+        "rawEndTime": 1701698572922
+    },
+    {
+        "transactionName": "Logout",
+        "rawStartTime": 1701698572948,
+        "rawEndTime": 1701698573099
+    },
+    {
+        "transactionName": "DeleteBookingScenario",
+        "rawStartTime": 1701698572055,
+        "rawEndTime": 1701698573114
+    }
+]

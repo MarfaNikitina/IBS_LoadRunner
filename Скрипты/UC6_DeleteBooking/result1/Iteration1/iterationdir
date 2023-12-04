@@ -1,0 +1,6 @@
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[UC6_DeleteFlight]
+SnapshotIndex=I1_UC6_DeleteFlight
+[vuser_end]
+SnapshotIndex=I1_vuser_end

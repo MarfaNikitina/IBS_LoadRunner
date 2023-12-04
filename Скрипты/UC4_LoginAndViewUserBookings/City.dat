@@ -1,0 +1,17 @@
+departCity,arrivalCity
+Denver,Frankfurt
+Frankfurt,Denver
+London,Paris
+Paris,London
+Denver,Paris
+Paris,Denver
+London,Denver
+Denver,London
+Frankfurt,London
+London,Frankfurt
+Paris,Frankfurt
+Frankfurt,Paris
+Zurich,Paris
+Paris,Zurich
+Denver,Zurich
+Zurich,Denver
